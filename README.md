@@ -134,7 +134,7 @@ URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 - Watch the demo video below:
 
 <video width="600" controls>
-  <source src="https://github.com/MemonFaizan/AI_Thunderstorm_Wind_Classification_LJHackathon/blob/main/demo.gif" type="video/mp4">
+  <source src="https://github.com/MemonFaizan/AI_Thunderstorm_Wind_Classification_LJHackathon/blob/main/demo.gif?raw=true" alt="Hacker setup GIF" width="100%" type="video/mp4">
 </video>
 
 - **Interactive demo**: Run the `simulation/` app.
