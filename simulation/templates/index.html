@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Airport Weather Alert</h1>
+        <form method="POST">
+            <select name="city" class="form-select mb-3">
+                {% for city in cities %}
+                    <option value="{{ city }}">{{ city }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+        {% if event %}
+            <div class="mt-4 alert alert-{{ alert_class }}">
+                <h4>{{ city }}: {{ event | capitalize }}</h4>
+                <p>Confidence: {{ confidence | round(2) }}%</p>
+                <p>Wind Speed: {{ wind_speed | round(2) }} km/h</p>
+                <p>Reason: {{ reason }}</p>
+            </div>
+            <iframe width="100%" height="400" src="https://www.openstreetmap.org/export/embed.html?bbox={{ lon-0.1 }},{{ lat-0.1 }},{{ lon+0.1 }},{{ lat+0.1 }}&layer=mapnik&marker={{ lat }},{{ lon }}"></iframe>
+        {% endif %}
+    </div>
+</body>
+</html>
