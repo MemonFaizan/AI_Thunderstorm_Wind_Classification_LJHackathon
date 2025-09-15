@@ -65,8 +65,6 @@ AI_Thunderstorm_Wind_Classification_LJHackathon/
 - **Node.js v16+ & npm v8+** (for frontend)
 - **Git** (to clone the repo)
 
-git clone https://github.com/MemonFaizan/AI_Thunderstorm_Wind_Classification_LJHackathon.git
-cd AI_Thunderstorm_Wind_Classification_LJHackathon
 ### 1. Clone the repository
 
 ```bash
@@ -136,11 +134,8 @@ URL: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 - Watch the demo video below:
 
 <video width="600" controls>
-  <source src="demo_video.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="#">Click here for external link</a>
+  <source src="https://github.com/MemonFaizan/AI_Thunderstorm_Wind_Classification_LJHackathon/blob/main/demo.gif" type="video/mp4">
 </video>
-
-_Alternative Link_: If the video doesn’t play, watch on Google Drive (replace # with actual link if hosted externally).
 
 - **Interactive demo**: Run the `simulation/` app.
 
