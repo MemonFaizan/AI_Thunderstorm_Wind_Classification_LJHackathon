@@ -14,11 +14,11 @@ env/
 .ipynb_checkpoints/
 
 # Large datasets and models
-# data/*.csv
-# data/*.xlsx
-# models/*.pth
-# models/*.pkl
-# models/*.npy
+data/*.csv
+data/*.xlsx
+models/*.pth
+models/*.pkl
+models/*.npy
 checkpoints/
 
 # Node.js (Frontend)
@@ -40,12 +40,12 @@ Thumbs.db
 .idea/
 
 # Specific to this project
-# data/multi_city_hist.csv
-# data/multi_city_labeled_fixed.csv
-# models/lstm_class_multi.pth
-# models/lstm_reg_multi.pth
-# models/scaler.pkl
+data/multi_city_hist.csv
+data/multi_city_labeled_fixed.csv
+models/lstm_class_multi.pth
+models/lstm_reg_multi.pth
+models/scaler.pkl
 
-# demo_video.mp4
-# README.md
-# thunderstorm_gale_force_wind.pdf
+demo_video.mp4
+README.md
+thunderstorm_gale_force_wind.pdf
